@@ -99,7 +99,7 @@ app.controller('HomeController', ['$scope', function($scope) {
 	/* ADD VARIABLES FOR STEP 3 HERE */
 
 
-	scope.title = "IMDB + Sumit's Top 8 Movies";
+	$scope.title = "IMDB + Sumit's Top 8 Movies";
 	$scope.owner = "Sumit";
 	$scope.github = "https://github.com/sumitrawat1/is219rawat-p3/tree/master/P3-Starter-AngularJS";
 
@@ -130,7 +130,7 @@ app.controller('HomeController', ['$scope', function($scope) {
 	  return (Math.floor(minutes/60) + "h " + minutes % 60 + "m");
 	};
 
-		
+
 
 
 
