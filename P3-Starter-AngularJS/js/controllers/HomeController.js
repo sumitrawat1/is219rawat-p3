@@ -88,7 +88,50 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
-	}
+	},
+	{
+	title:	'Avengers Infinity War',
+	iscore:	9.0,
+	rating:	'PG-13',
+	runtime:	149,
+	released:	new Date('2018', '4', '27'),
+	country:	'USA',
+	posters:	['img/avengers.jpg', 'img/avengers1.jpg' ],
+	imdb:		'https://www.imdb.com/title/tt4154756/',
+	website:	'http://marvel.com/avengers',
+	likes:	23843,
+	dislikes:	101,
+	posterindex: 0
+},
+{
+	title:	'Batman vs Superman: Dawn of Justice',
+	iscore:	6.6,
+	rating:	'PG-13',
+	runtime:	151,
+	released:	new Date('2016', '3', '25'),
+	country:	'USA',
+	posters:	['img/batmanVsSuperman.jpg', 'img/batmanVsSuperman1.jpg' ],
+	imdb:		'https://www.imdb.com/title/tt2975590/',
+	website:	'http://batmanvsuperman.dccomics.com/',
+	likes:	530991,
+	dislikes:	2001,
+	posterindex: 0
+},
+{
+	title:	'The Fate of the Furious',
+	iscore:	6.7,
+	rating:	'PG-13',
+	runtime:	136,
+	released:	new Date('2017', '4', '14'),
+	country:	'USA',
+	posters:	['img/fastAndFurious.jpg', 'img/fastAndFurious8.jpg' ],
+	imdb:		'https://www.imdb.com/title/tt4630562/',
+	website:	'http://www.fastandfurious.com/',
+	likes:	159643,
+	dislikes:	2643,
+	posterindex: 0
+}
+
 
 
   ];
